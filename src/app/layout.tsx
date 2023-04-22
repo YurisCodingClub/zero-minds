@@ -1,4 +1,6 @@
 import './globals.css'
+import Navbar from './navbar'
+import Footer from './footer'
 
 export const metadata = {
   title: 'Create Next App',
