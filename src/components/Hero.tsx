@@ -2,13 +2,14 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 import Toggle from './Toggle'
 import Image from 'next/image'
 
 const navigation = [
-  { name: 'How it works', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Gallery', href: '#' },
+  { name: 'How it works', href: '/how-it-works' },
+  { name: 'Marketplace', href: '/marketplace' },
+  { name: 'Gallery', href: '/gallery' },
 ]
 
 export default function Hero() {
@@ -19,10 +20,10 @@ export default function Hero() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">ZeroMinds</span>
               <Image src="/logo.svg" alt="" width="200" height="49" />
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <div className="mr-6 flex">
@@ -39,17 +40,17 @@ export default function Hero() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-gray-900">
+              <Link key={item.name} href={item.href} className="text-lg font-semibold leading-6 text-gray-900">
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <Toggle />
-            <a href="#" className="text-lg font-semibold leading-6 text-gray-900 flex items-center mx-6">
+            <a href="/login" className="text-lg font-semibold leading-6 text-gray-900 flex items-center mx-6">
               Log in
             </a>
-            <a href="#" className="text-lg font-semibold leading-6 text-gray-900 bg-purple-300 rounded-full py-2 px-6 flex items-center">
+            <a href="/sign-up" className="text-lg font-semibold leading-6 text-gray-900 bg-purple-300 rounded-full py-2 px-6 flex items-center">
               Sign up
             </a>
           </div>
@@ -115,7 +116,7 @@ export default function Hero() {
           <div className="mx-auto max-w-2xl py-16">
             <div className="">
               <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl">
-                Collaborate, <span className="text-purple-600">Improve</span>, Create: Work in Teams for an Outstanding Portfolio
+                Collaborate, <span className="text-purple-600">Improve</span>, Create: Work in Teams for an <span className="text-purple-600">Outstanding Portfolio</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Passionate di bidang Frontend Dev dan UI/UX Design. Suka membangun
@@ -126,7 +127,7 @@ export default function Hero() {
               <div className="mt-10 flex items-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-full bg-purple-600 py-4 px-6 text-m font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600"
+                  className="rounded-full bg-purple-600 py-4 px-6 text-lg font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600"
                 >
                   Get started
                 </a>
