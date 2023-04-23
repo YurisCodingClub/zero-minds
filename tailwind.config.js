@@ -13,7 +13,9 @@ module.exports = {
       'sans': ['Poppins', 'ui-sans-serif', 'Helvetica'],
     },
     extend: {
-
+      aspectRatio: {
+        '2/1': '2 / 1',
+      },
     }
   },
   plugins: [],
