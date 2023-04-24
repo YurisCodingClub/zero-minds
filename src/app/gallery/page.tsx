@@ -10,9 +10,6 @@ export default function Gallery() {
             <p className="text-xl mt-2 text-gray-600">Check out great projects and their awesome creators.</p>
           </div>
           <TabsGallery />
-          <div className="grid grid-cols-1 gap-x-20 gap-y-8 mx-auto mt-16 max-w-2xl">
-
-          </div>
         </div>
       </div>
     </main>
