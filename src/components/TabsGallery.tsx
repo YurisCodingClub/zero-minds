@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Tab } from '@headlessui/react'
 import ListMembers from './ListMembers'
+import ListProjects from './ListProjects'
 
 
 function classNames(...classes: string[]) {
@@ -13,7 +14,7 @@ export default function Tabs() {
     'Finished Projects': [
       {
         id: 1,
-        content: <ListMembers />
+        content: <ListProjects />
       },
     ],
     Members: [

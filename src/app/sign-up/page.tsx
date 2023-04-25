@@ -1,8 +1,8 @@
 export default function SignUp() {
   return (
     <main className="flex w-desktop min-h-screen flex-col items-center justify-between p-24">
-      <div className="bg-gray-800">
-        <div className="p-8 lg:w-1/2 mx-auto">
+      <div className="bg-teal-900 w-full rounded-lg">
+        <div className="p-8 mx-auto md:w-9/12">
           <div className="bg-white rounded-t-lg p-8">
             <p className="text-center text-sm text-gray-400 font-light">Sign up with</p>
             <div>
