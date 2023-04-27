@@ -1,3 +1,17 @@
+# Welcome to ZeroMinds
+
+Welcome to ZeroMinds, a place where you can learn about the latest in technology and how it can help you in your daily life. We are a group of people who are passionate about technology and want to share our knowledge with the world. We hope you enjoy our content and find it useful!
+
+Work together with great minds on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
+
+[Thumbail]()
+
+# MindsDB x Hashnode Hackathon 2023
+
+
+
+## Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

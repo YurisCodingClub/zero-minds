@@ -27,9 +27,6 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex lg:hidden">
-          <div className="mr-6 flex">
-            <Toggle />
-          </div>
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -47,6 +44,7 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <Toggle />
           <User />
           {/* If not logged in, then  */}
           {/* <Link href="/login" className="text-lg font-semibold leading-6 text-gray-900 flex items-center mx-6">
