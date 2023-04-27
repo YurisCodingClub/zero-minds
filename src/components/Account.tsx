@@ -1,4 +1,4 @@
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid';
 
 export default function Account() {
   return (
@@ -9,7 +9,6 @@ export default function Account() {
           <p className="mt-1 text-sm leading-6 text-gray-600">
             This information will be displayed publicly so be careful what you share.
           </p>
-
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-4">
               <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
@@ -218,7 +217,7 @@ export default function Account() {
         <div className="border-b border-gray-900/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-gray-900">Notifications</h2>
           <p className="mt-1 text-sm leading-6 text-gray-600">
-            We'll always let you know about important changes, but you pick what else you want to hear about.
+            We&apos;ll always let you know about important changes, but you pick what else you want to hear about.
           </p>
 
           <div className="mt-10 space-y-10">
@@ -317,7 +316,6 @@ export default function Account() {
           </div>
         </div>
       </div>
-
       <div className="mt-6 flex items-center justify-end gap-x-6">
         <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
           Cancel

@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
 
@@ -28,12 +28,12 @@ export default function Hero() {
               In today&apos;s fast-paced and competitive world, it&apos;s essential to continuously improve your skills, work effectively with others in a team, and showcase your abilities through a well-crafted portfolio. Whether you&apos;re a complete beginner in tech, a student, a working professional who what&apos;s to switch careers, honing your skills, collaborating with others, and showcasing your work can be a game-changer in achieving your goals. In this context, ZeroMinds will help you improve your skills, collaborate effectively in a team, and pimp your portfolio to stand out in your field - many different minds but <span className="text-gray-900 font-semibold">zero</span> boundaries.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                href="/how-it-works"
                 className="rounded-full bg-purple-600 py-4 px-6 text-lg font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600"
               >
                 Get started
-              </a>
+              </Link>
             </div>
           </div>
         </div>

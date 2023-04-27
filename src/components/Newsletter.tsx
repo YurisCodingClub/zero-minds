@@ -32,8 +32,8 @@ export default function NewsLetter() {
               </button>
             </div>
           </div>
-          <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
-            <div className="flex flex-col items-start">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+            <dl className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <CalendarDaysIcon className="h-6 w-6 text-gray-900" aria-hidden="true" />
               </div>
@@ -41,8 +41,8 @@ export default function NewsLetter() {
               <dd className="mt-2 leading-7 text-gray-600">
                 Tips on what is happening in other projects, how can you improve, and much more.
               </dd>
-            </div>
-            <div className="flex flex-col items-start">
+            </dl>
+            <dl className="flex flex-col items-start">
               <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                 <HandRaisedIcon className="h-6 w-6 text-gray-900" aria-hidden="true" />
               </div>
@@ -50,8 +50,8 @@ export default function NewsLetter() {
               <dd className="mt-2 leading-7 text-gray-600">
                 The newsletter is all about helping you land your first job in tech. Nothing else.
               </dd>
-            </div>
-          </dl>
+            </dl>
+          </div>
         </div>
       </div>
       <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">

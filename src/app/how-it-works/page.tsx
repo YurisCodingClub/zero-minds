@@ -1,8 +1,4 @@
-import FeatureSection from "@/components/FeatureSection";
-import FeatureSectionGrid from "@/components/FeatureSectionGrid";
-import NewsLetter from "@/components/Newsletter";
-import PanelScreen from "@/components/PanelScreen";
-import StatsSection from "@/components/StatsSection";
+import { FeatureSection, FeatureSectionGrid, NewsLetter, StatsSection } from "@/components";
 
 export default function HowItWorks() {
   return (

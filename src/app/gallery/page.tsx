@@ -1,4 +1,4 @@
-import TabsGallery from "@/components/TabsGallery";
+import { TabsGallery } from "@/components";
 
 export default function Gallery() {
   return (

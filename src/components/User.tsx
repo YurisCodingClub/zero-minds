@@ -1,8 +1,8 @@
 "use client";
 import { Menu, Transition } from '@headlessui/react'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { Fragment } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { ArrowRightOnRectangleIcon, Cog6ToothIcon, TrashIcon, UserIcon } from '@heroicons/react/24/outline';
+import { ArrowRightOnRectangleIcon, Cog6ToothIcon, UserIcon } from '@heroicons/react/24/outline';
 
 export default function User() {
   return (

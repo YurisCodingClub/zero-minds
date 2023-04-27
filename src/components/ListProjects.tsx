@@ -17,9 +17,9 @@ export default function ListProjects() {
             </div>
             <div className="relative">
               <h3 className="font-semibold text-xl mt-3">
-                <a href="#">
+                <Link href="#">
                   <span className="inset-0 absolute"></span>Boost your conversion rate
-                </a>
+                </Link>
               </h3>
               <p className="text-sm overflow-hidden mt-5">
                 Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
@@ -29,7 +29,7 @@ export default function ListProjects() {
               <Image src="/members/members_1.png" alt="" className="rounded-full w-10 h-10 max-w-full block object-cover" width="250" height="250" />
               <div className="text-sm">
                 <p className="m-0 font-semibold">
-                  <a href="#"><span className="inset-0 absolute"></span>Michael Foster</a>
+                  <Link href="#"><span className="inset-0 absolute"></span>Michael Foster</Link>
                 </p>
                 <p className="m-0">Co-Founder / CTO</p>
               </div>
@@ -48,9 +48,9 @@ export default function ListProjects() {
             </div>
             <div className="relative">
               <h3 className="font-semibold text-xl mt-3">
-                <a href="#">
+                <Link href="#">
                   <span className="inset-0 absolute"></span>Boost your conversion rate
-                </a>
+                </Link>
               </h3>
               <p className="text-sm overflow-hidden mt-5">
                 Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
@@ -60,7 +60,7 @@ export default function ListProjects() {
               <Image src="/members/members_2.png" alt="" className="rounded-full w-10 h-10 max-w-full block object-cover" width="250" height="250" />
               <div className="text-sm">
                 <p className="m-0 font-semibold">
-                  <a href="#"><span className="inset-0 absolute"></span>Michael Foster</a>
+                  <Link href="#"><span className="inset-0 absolute"></span>Michael Foster</Link>
                 </p>
                 <p className="m-0">Co-Founder / CTO</p>
               </div>
@@ -79,9 +79,9 @@ export default function ListProjects() {
             </div>
             <div className="relative">
               <h3 className="font-semibold text-xl mt-3">
-                <a href="#">
+                <Link href="#">
                   <span className="inset-0 absolute"></span>Boost your conversion rate
-                </a>
+                </Link>
               </h3>
               <p className="text-sm overflow-hidden mt-5">
                 Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
@@ -91,7 +91,7 @@ export default function ListProjects() {
               <Image src="/members/members_3.png" alt="" className="rounded-full w-10 h-10 max-w-full block object-cover" width="250" height="250" />
               <div className="text-sm">
                 <p className="m-0 font-semibold">
-                  <a href="#"><span className="inset-0 absolute"></span>Michael Foster</a>
+                  <Link href="#"><span className="inset-0 absolute"></span>Michael Foster</Link>
                 </p>
                 <p className="m-0">Co-Founder / CTO</p>
               </div>
@@ -110,9 +110,9 @@ export default function ListProjects() {
             </div>
             <div className="relative">
               <h3 className="font-semibold text-xl mt-3">
-                <a href="#">
+                <Link href="#">
                   <span className="inset-0 absolute"></span>Boost your conversion rate
-                </a>
+                </Link>
               </h3>
               <p className="text-sm overflow-hidden mt-5">
                 Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.
@@ -122,7 +122,7 @@ export default function ListProjects() {
               <Image src="/members/members_4.png" alt="" className="rounded-full w-10 h-10 max-w-full block object-cover" width="250" height="250" />
               <div className="text-sm">
                 <p className="m-0 font-semibold">
-                  <a href="#"><span className="inset-0 absolute"></span>Michael Foster</a>
+                  <Link href="#"><span className="inset-0 absolute"></span>Michael Foster</Link>
                 </p>
                 <p className="m-0">Co-Founder / CTO</p>
               </div>
