@@ -8,7 +8,7 @@ export default function MarketPlace() {
         <div className="lg:px-6 px-8 max-w-7xl mx-auto">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-4xl font-semibold">Project Marketplace</h2>
-            <p className="text-xl mt-2 text-gray-600">Learn how to grow your business with our expert advice.</p>
+            <p className="text-xl mt-2 text-gray-600">Find a project that suits your skills and interest.</p>
           </div>
           <div className="mt-6 flex items-center">
             <button type="button" className="rounded-full bg-purple-600 py-4 px-6 text-lg font-semibold text-white shadow-sm hover:bg-purple-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600 inline-flex items-center mr-4">

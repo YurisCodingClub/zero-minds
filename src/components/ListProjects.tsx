@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ListProjects() {
   return (
-    <div className="lg:px-6 px-8 max-w-7xl mx-auto">
+    <div className="lg:px-6 sm:px-8 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 gap-x-20 gap-y-8 lg:mx-auto mt-16 max-w-2xl lg:grid-cols-3 lg:max-w-none">
         <article className="flex items-start flex-col justify-between">
           <div className="relative w-full border border-gray-50">

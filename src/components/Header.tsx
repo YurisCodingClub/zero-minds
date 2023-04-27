@@ -3,12 +3,14 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
-import Toggle from './Toggle'
 import Image from 'next/image'
+import Toggle from './Toggle'
+import User from './User'
+
 
 const navigation = [
   { name: 'How it works', href: '/how-it-works' },
-  { name: 'Marketplace', href: '/marketplace' },
+  { name: 'Project Marketplace', href: '/marketplace' },
   { name: 'Gallery', href: '/gallery' },
 ]
 
@@ -45,13 +47,14 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Toggle />
-          <Link href="/login" className="text-lg font-semibold leading-6 text-gray-900 flex items-center mx-6">
+          <User />
+          {/* If not logged in, then  */}
+          {/* <Link href="/login" className="text-lg font-semibold leading-6 text-gray-900 flex items-center mx-6">
             Log in
           </Link>
           <Link href="/sign-up" className="text-lg font-semibold leading-6 text-gray-900 bg-purple-300 rounded-full py-2 px-6 flex items-center">
             Sign up
-          </Link>
+          </Link> */}
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -85,7 +88,7 @@ export default function Header() {
                 ))}
               </div>
               <div className="py-6">
-                <Link
+                {/* <Link
                   href="/login"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
@@ -96,7 +99,7 @@ export default function Header() {
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Sign Up
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Tabs() {
+export default function TabsGallery() {
   let [categories] = useState({
     'Finished Projects': [
       {
@@ -17,7 +17,7 @@ export default function Tabs() {
         content: <ListProjects />
       },
     ],
-    Members: [
+    'Members - Hall of fame': [
       {
         id: 2,
         content: <ListMembers />
@@ -28,14 +28,14 @@ export default function Tabs() {
   return (
     <div className="w-full px-2 py-16 sm:px-0">
       <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xl bg-blue-900/20 p-1">
+        <Tab.List className="flex space-x-1 rounded-xl bg-teal-900/20 p-1">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-blue-700',
-                  'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+                  'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-teal-900',
+                  'ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
                     : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
@@ -52,7 +52,7 @@ export default function Tabs() {
               key={idx}
               className={classNames(
                 'rounded-xl bg-white p-3',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
+                'ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2'
               )}
             >
               {content.map((item) =>

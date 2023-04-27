@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Members() {
   return (
     <div className="lg:px-6 px-8 max-w-7xl mx-auto">
-      <ul className="grid grid-cols-1 gap-x-20 gap-y-8 lg:mx-auto mt-16 max-w-2xl lg:grid-cols-3 lg:max-w-none">
+      <ul className="grid grid-cols-1 gap-x-20 gap-y-8 lg:mx-auto mt-16 max-w-2xl lg:grid-cols-4 lg:max-w-none">
         <li className="flex items-start flex-col justify-between">
           <div className="relative w-full border border-gray-50">
             <Image src="/members/members_1.png" alt="" className="block object-cover rounded-md w-full h-auto max-w-full sm:aspect-[2/1] lg:aspect-[3/2]" width="250" height="250" />
