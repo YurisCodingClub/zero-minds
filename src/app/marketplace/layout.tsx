@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Header from '../../components/Header';
 
 export default function MarketPlaceLayout({
@@ -9,6 +10,7 @@ export default function MarketPlaceLayout({
     <div>
       <Header />
       {children}
+      <Footer />
     </div>
   );
 }
