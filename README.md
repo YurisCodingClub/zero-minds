@@ -4,7 +4,7 @@ Welcome to ZeroMinds, a place where you can learn about the latest in technology
 
 Work together with great minds on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
 
-[Thumbail]()
+![Thumbail](https://github.com/YuriDevAT/zero-minds/blob/main/public/thumbnail.jpg)
 
 # MindsDB x Hashnode Hackathon 2023
 
