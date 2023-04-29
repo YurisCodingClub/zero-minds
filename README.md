@@ -3,13 +3,13 @@
 
 # Welcome to ZeroMinds
 
-Welcome to ZeroMinds (great minds, zero barriers), a place where you can learn about the latest in technology and how it can help you in your daily life. We are a group of people who are passionate about technology and want to share our knowledge with the world. We hope you enjoy our content and find it useful!
-
-Work together with great minds on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
+Work together with great minds and zero barriers on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
 
 ![Thumbail](https://github.com/YuriDevAT/zero-minds/blob/main/public/thumbnail.jpg)
 
 # MindsDB x Hashnode Hackathon 2023
+
+This project is made under the circumstances of the MindsDB and Hashnode Hackathon. Find out more information about what the Hackathon is about and its evaluation criteria in the article [Shape the future of Machine Learning](https://hashnode.com/hackathons/mindsdb?source=hncounter-feed).
 
 # Contribution
 
