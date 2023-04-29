@@ -62,12 +62,12 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to me responsible for enforcement at yuridevat@gmail.com.
 All complaints will be reviewed and investigated promptly and fairly.
 
-I am obligated to respect the privacy and security of the reporter of any 
+I am obligated to respect the privacy and security of the reporter of any
 incident.
 
 ## Enforcement Guidelines
 
-I will follow these Impact Guidelines in determining the consequences for 
+I will follow these Impact Guidelines in determining the consequences for
 any action deemed in violation of this Code of Conduct:
 
 ### 1. Correction

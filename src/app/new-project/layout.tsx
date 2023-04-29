@@ -3,7 +3,7 @@ import { Footer, Header } from "@/components";
 export default function MarketPlaceLayout({
   children,
 }: {
-  children: React.ReactNode,
+  children: React.ReactNode;
 }) {
   return (
     <div>

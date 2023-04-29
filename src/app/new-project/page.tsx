@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function NewProject() {
   return (
     <main className="flex w-desktop min-h-screen flex-col items-center justify-between p-24">
-      <p>Look if the kind of project you are thinking of already
-        exists. Get in contact to discuss future implementation
-        by using GitHub to its full extend (discussion, wiki and stuff)</p>
+      <p>
+        Look if the kind of project you are thinking of already exists. Get in
+        contact to discuss future implementation by using GitHub to its full
+        extend (discussion, wiki and stuff)
+      </p>
 
       {/* <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -46,5 +48,5 @@ export default function NewProject() {
         </div>
       </div> */}
     </main>
-  )
+  );
 }

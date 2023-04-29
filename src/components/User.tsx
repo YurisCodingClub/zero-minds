@@ -1,8 +1,12 @@
 "use client";
-import { Menu, Transition } from '@headlessui/react'
-import { Fragment } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { ArrowRightOnRectangleIcon, Cog6ToothIcon, UserIcon } from '@heroicons/react/24/outline';
+import { Menu, Transition } from "@headlessui/react";
+import { Fragment } from "react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import {
+  ArrowRightOnRectangleIcon,
+  Cog6ToothIcon,
+  UserIcon,
+} from "@heroicons/react/24/outline";
 
 export default function User() {
   return (
@@ -30,8 +34,9 @@ export default function User() {
             <Menu.Item>
               {({ active }) => (
                 <button
-                  className={`${active ? 'bg-purple-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                  className={`${
+                    active ? "bg-purple-500 text-white" : "text-gray-900"
+                  } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
                   <UserIcon className="mr-2 h-5 w-5" aria-hidden="true" />
                   Profile
@@ -41,8 +46,9 @@ export default function User() {
             <Menu.Item>
               {({ active }) => (
                 <button
-                  className={`${active ? 'bg-purple-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                  className={`${
+                    active ? "bg-purple-500 text-white" : "text-gray-900"
+                  } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
                   <Cog6ToothIcon className="mr-2 h-5 w-5" aria-hidden="true" />
                   Account
@@ -54,10 +60,14 @@ export default function User() {
             <Menu.Item>
               {({ active }) => (
                 <button
-                  className={`${active ? 'bg-purple-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                  className={`${
+                    active ? "bg-purple-500 text-white" : "text-gray-900"
+                  } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
-                  <ArrowRightOnRectangleIcon className="mr-2 h-5 w-5" aria-hidden="true" />
+                  <ArrowRightOnRectangleIcon
+                    className="mr-2 h-5 w-5"
+                    aria-hidden="true"
+                  />
                   Sign Out
                 </button>
               )}
@@ -66,5 +76,5 @@ export default function User() {
         </Menu.Items>
       </Transition>
     </Menu>
-  )
+  );
 }

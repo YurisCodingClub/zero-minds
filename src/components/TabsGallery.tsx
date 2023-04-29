@@ -1,28 +1,27 @@
 "use client";
-import { useState } from 'react'
-import { Tab } from '@headlessui/react'
-import { ListMembers, ListProjects } from '@/components';
-
+import { useState } from "react";
+import { Tab } from "@headlessui/react";
+import { ListMembers, ListProjects } from "@/components";
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function TabsGallery() {
   let [categories] = useState({
-    'Finished Projects': [
+    "Finished Projects": [
       {
         id: 1,
-        content: <ListProjects />
+        content: <ListProjects />,
       },
     ],
-    'Members - Hall of fame': [
+    "Members - Hall of fame": [
       {
         id: 2,
-        content: <ListMembers />
+        content: <ListMembers />,
       },
     ],
-  })
+  });
 
   return (
     <div className="w-full px-2 py-16 sm:px-0">
@@ -33,11 +32,11 @@ export default function TabsGallery() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-teal-900',
-                  'ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2',
+                  "w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-teal-900",
+                  "ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2",
                   selected
-                    ? 'bg-white shadow'
-                    : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                    ? "bg-white shadow"
+                    : "text-blue-100 hover:bg-white/[0.12] hover:text-white"
                 )
               }
             >
@@ -50,19 +49,17 @@ export default function TabsGallery() {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'rounded-xl bg-white p-3',
-                'ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2'
+                "rounded-xl bg-white p-3",
+                "ring-white ring-opacity-60 ring-offset-2 ring-offset-teal-900 focus:outline-none focus:ring-2"
               )}
             >
-              {content.map((item) =>
-                <div key={item.id}>
-                  {item.content}
-                </div>
-              )}
+              {content.map((item) => (
+                <div key={item.id}>{item.content}</div>
+              ))}
             </Tab.Panel>
           ))}
         </Tab.Panels>
       </Tab.Group>
     </div>
-  )
+  );
 }

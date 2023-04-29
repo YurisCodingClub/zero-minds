@@ -26,6 +26,7 @@ Before working on an existing Issue please follow these steps:
 1. reference the Issue in your Pull Request (for example `closes #123`)
 
 > Notes:
+>
 > - it is not sustainable for maintainers to review historical comments asking for assignments before the Issue label `status: ready for dev` was added; only requests for assignment of an Issue after this label has been added will be considered
 > - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
 > - only request to be assigned an issue if you know how to work on it
@@ -36,11 +37,13 @@ Before working on an existing Issue please follow these steps:
 We welcome everyone to review Pull Requests, it is a great way to learn and network.
 
 ### DOs
+
 - be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
 - use inline comments to explain your suggestions
 - use inline suggestions to propose changes
 
 ### DON'Ts
+
 - don't be rude, disrespectful or aggressive
 - do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
 - do not blindly approve pull requests to improve your GitHub contributors graph

@@ -3,7 +3,7 @@ import { Footer, Header } from "@/components";
 export default function LoginLayout({
   children,
 }: {
-  children: React.ReactNode,
+  children: React.ReactNode;
 }) {
   return (
     <div>

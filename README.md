@@ -8,8 +8,6 @@ Work together with great minds on different kind of projects and gain real-world
 
 # MindsDB x Hashnode Hackathon 2023
 
-
-
 ## Next.js
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
