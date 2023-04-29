@@ -1,6 +1,9 @@
+![Open Source Love](https://img.shields.io/badge/open%20soure-%F0%9F%92%9F-blueviolet?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 # Welcome to ZeroMinds
 
-Welcome to ZeroMinds, a place where you can learn about the latest in technology and how it can help you in your daily life. We are a group of people who are passionate about technology and want to share our knowledge with the world. We hope you enjoy our content and find it useful!
+Welcome to ZeroMinds (great minds, zero barriers), a place where you can learn about the latest in technology and how it can help you in your daily life. We are a group of people who are passionate about technology and want to share our knowledge with the world. We hope you enjoy our content and find it useful!
 
 Work together with great minds on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
 
@@ -8,41 +11,145 @@ Work together with great minds on different kind of projects and gain real-world
 
 # MindsDB x Hashnode Hackathon 2023
 
-## Next.js
+# Contribution
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to contribute
 
-## Getting Started
+This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below. (Demo image)
 
-First, run the development server:
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1SbliQ66gfCx0uiwcG_04FAPXNMPHVE7s" alt="fork this repository" />
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Prerequisites
+
+If you don't have git on your machine, [install it](https://help.github.com/articles/set-up-git/).
+If you don't have node on your machine, [install it](https://nodejs.org/en/download/).
+
+### Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+### Clone the repository
+
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=10xHPRthNMKP8vi_mS8KjklhlLIhVlp6g" alt="clone this repository" />
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon. (Demo image)
+
+Open a terminal, go to the directory where you want the project to be saved and run the following git command:
+
+```
+git clone "url you just copied"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url. (Demo image)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img align="right" width="300" src="https://docs.google.com/uc?export=download&id=1ifdWqKw4DYvhUjmH_LNNAt925S7WPNC4" alt="copy URL to clipboard" />
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+For example:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+git clone https://github.com/this-is-you/zero-minds.git
+```
 
-## Learn More
+where `this-is-you` is your GitHub username. Here you're copying the contents of the dev-cv repository on GitHub to your computer.
 
-To learn more about Next.js, take a look at the following resources:
+### Create a branch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Change to the repository directory on your computer (if you are not already there):
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+cd dev-cv
+```
 
-## Deploy on Vercel
+Open the project in Visual Studio Code (or your favorite code editor):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+code .
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Install the dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm start
+```
+
+Now create a branch using the `git checkout -b` command:
+
+```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b name-of-issue
+```
+
+### Make necessary changes and commit those changes
+
+<img align="right" width="450" src="https://docs.google.com/uc?export=download&id=16K70wMG4sZk2MzqwkAowkX06EpI4dMKZ" alt="git status" />
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes. (Demo image)
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add filename
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Name of issue"
+```
+
+#### Commit message
+
+There are different ways of writing a commit message. For more reference checkout the
+article about [How to write a good commit message](https://dev.to/chrissiemhrk/git-commit-message-5e21).
+
+For this project we are going to use following style:
+
+**type-of-issue- + number-of-issue[action you took]**
+
+Practical example:
+
+`feature-11[Fix typo in README.md]`
+
+### Push changes to GitHub
+
+Push your changes using the command `git push`:
+
+```
+git push origin -u <add-your-branch-name>
+```
+
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+### Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button. (Demo image)
+
+<img style="float: right;" src="https://docs.google.com/uc?export=download&id=1FMXVHEhxBxeSFWsJsR53ddE8GmyAlMR4" alt="create a pull request" />
+
+Now submit the pull request. (Demo image)
+
+<img style="float: right;" src="https://docs.google.com/uc?export=download&id=1r6VFuraC-5l9PF4JKn9A4Rhmm-4VelI7" alt="submit pull request" />
+
+Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+
+## Where to go from here?
+
+Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll encounter often as a contributor!
+
+Celebrate your contribution and share it with your friends and followers on your social media accounts.
+
+Now let's get you started with your next contribution, wether on this or any other great open source projects on GitHub.
+
+Have fun 👻!
