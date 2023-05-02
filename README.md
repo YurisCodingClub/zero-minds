@@ -5,6 +5,8 @@
 
 Work together with great minds and zero barriers on different kind of projects and gain real-world experience, advice from mentors on how to create an outstanding portfolio, and a chance to get hired by a company that values your skills.
 
+Read the article about the project on hashnode: [Develop Interview Winning Portfolio Porjects With MindsDB Predictions](https://yuridevat.hashnode.dev/develop-interview-winning-portfolio-projects-with-mindsdb-predictions)
+
 ![Thumbail](https://github.com/YuriDevAT/zero-minds/blob/main/public/thumbnail.jpg)
 
 # MindsDB x Hashnode Hackathon 2023
