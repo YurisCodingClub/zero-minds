@@ -60,7 +60,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd dev-cv
+cd zero-minds
 ```
 
 Open the project in Visual Studio Code (or your favorite code editor):
@@ -78,7 +78,7 @@ npm install
 Run the project:
 
 ```
-npm start
+npm run dev
 ```
 
 Now create a branch using the `git checkout -b` command:
