@@ -1,7 +1,7 @@
 {
   "name": "zero-minds",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://zerominds.netlify.app/",
   "description": "ZeroMinds is a platform for aspiring creators (designers, developers, testers, content writers, ..) to collaborate and create websites and application together to pimp their portfolio to land their first job in tech. Zero barriers - everyone is welcome to join and contribute.",
   "repository": {
