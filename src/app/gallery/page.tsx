@@ -1,5 +1,4 @@
 import { TabsGallery } from "@/components";
-import UserAccount from "@/components/UserAccount";
 
 export default function Gallery() {
   return (
@@ -13,7 +12,6 @@ export default function Gallery() {
             </p>
           </div>
           <TabsGallery />
-          <UserAccount />
         </div>
       </div>
     </main>
