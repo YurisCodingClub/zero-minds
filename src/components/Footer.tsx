@@ -160,8 +160,8 @@ export default function Footer() {
               weekly.
             </p>
             <form className="sm:max-w-md mt-0">
-              <p className="text-sm text-gray-600 h-6">Enter you Email</p>
-              <div className="flex">
+              <p className="text-sm text-gray-600 h-6">Enter your Email</p>
+              <div className="flex flex-col sm:flex-row gap-2">
                 <label
                   htmlFor="email-address-footer"
                   title="Enter your Email address"
