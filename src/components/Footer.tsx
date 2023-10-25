@@ -161,7 +161,7 @@ export default function Footer() {
             </p>
             <form className="sm:max-w-md mt-0">
               <p className="text-sm text-gray-600 h-6">Enter your Email</p>
-              <div className="flex flex-col sm:flex-row gap-2">
+              <div className="flex flex-col sm:flex-row gap-2 md:gap-0">
                 <label
                   htmlFor="email-address-footer"
                   title="Enter your Email address"
