@@ -1,5 +1,5 @@
 const links = [
-  { name: "Find a project", href: "#" },
+  { name: "Find a project", href: "/new-project" },
   { name: "Improve your skill", href: "#" },
   { name: "Land an interview / job", href: "#" },
   { name: "Enter the hall of fame", href: "#" },
