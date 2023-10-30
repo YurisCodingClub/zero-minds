@@ -1,8 +1,8 @@
 const links = [
-  { name: "Find a project", href: "/new-project" },
+  { name: "Find a project", href: "/marketplace" },
   { name: "Improve your skill", href: "#" },
   { name: "Land an interview / job", href: "#" },
-  { name: "Enter the hall of fame", href: "#" },
+  { name: "Enter the hall of fame", href: "/gallery" },
 ];
 const stats = [
   { name: "Open project", value: "8" },
