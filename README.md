@@ -15,6 +15,16 @@ This project is made under the circumstances of the MindsDB and Hashnode Hackath
 
 # Contribution
 
+## Top contributors
+
+[//]: contributor-faces
+
+<a href="https://github.com/Nwakaego-Ego"><img src="https://avatars.githubusercontent.com/u/81041326?v=4" title="Nwakaego Glory Nwaekpe" width="80" height="80"></a>
+<a href="https://github.com/parinitapatil"><img src="https://avatars.githubusercontent.com/u/119065651?v=4" title="Parinita Patil" width="80" height="80"></a>
+<a href="https://github.com/Nathanael-R"><img src="https://avatars.githubusercontent.com/u/72811283?v=4" title="Nathanael Adam" width="80" height="80"></a>
+
+[//]: contributor-faces
+
 ## How to contribute
 
 This project aims to be a beginner friendly way to your first contribution to open source. If you are looking to make your first contribution, follow the steps below. (Demo image)
